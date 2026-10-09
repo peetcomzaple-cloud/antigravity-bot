@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# Database
+antigravity.db
+*.sqlite3
+
+# Project specific
+workspace/
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Additional private/generated files
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3-wal
+*.sqlite3-shm
+*.pem
+*.key
+*.log
+data/
+artifacts/
+.checkpoints/
+node_modules/
